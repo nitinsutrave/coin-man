@@ -187,7 +187,9 @@ document.getElementById("startButton").onclick = function () {
 
 if (navigator && navigator.share) {
   document.getElementById("shareButton").onclick = function () {
-    navigator.share("helloo")
+    navigator.share({
+      text: "I grabbed " + (score > 0 ? score : "some") + " coins on Coin Man! Grab yours too at : https://coinman.com"
+    })
   }
 } else {
   document.getElementById("shareButton").style.display = "none";  

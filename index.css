@@ -43,7 +43,7 @@ body {
   background: #212121;
 
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 #mainDiv {
@@ -105,9 +105,6 @@ body {
   min-height: 45px;
 
   margin: 10px auto 10px auto;
-
-  /*margin-left: : auto;
-  margin-right: : auto;*/
 
   background: #ededed;
 
