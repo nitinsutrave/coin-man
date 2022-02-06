@@ -26,8 +26,8 @@ var levelIntervalId;
 var score = 0;
 var level = 1;
 
-var ballRadius = 50;
-var coinRadius = 10;
+var ballRadius = Math.min(canvas.width, canvas.height) / 12;
+var coinRadius = ballRadius / 3;
 var posX = 665; // canvas.width / 2;
 var posY = 530; // canvas.height / 2;
 var coinPosX = getRandomPosition(2*coinRadius, canvas.width - (2*coinRadius));
