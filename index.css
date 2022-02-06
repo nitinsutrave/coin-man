@@ -28,7 +28,8 @@ body {
   /*margin-top: 10px;*/
   margin: 10px 0 0 0;
   font-family: RammettoOne;
-  font-size: 42px;
+  /*font-size: 42px;*/
+  font-size: 3.5rem;
   text-align: center;
 
   color: #e1b820;
@@ -82,7 +83,8 @@ body {
   margin-top: 90px;
 
   font-family: 'Righteous', cursive;
-  font-size: 22px;
+  /*font-size: 22px;*/
+  font-size: 2.5rem;
   color: #ededed;
   text-align: center;
 
@@ -130,7 +132,7 @@ body {
   float: left;
 
   font-family: 'Righteous', cursive;
-  font-size: 25px;
+  font-size: 2rem;
 }
 
 #level {
@@ -142,5 +144,5 @@ body {
   text-align: right;
 
   font-family: 'Righteous', cursive;
-  font-size: 25px;
+  font-size: 2rem;
 }
