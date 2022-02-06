@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coin Collector</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> -->
+
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<div id="mainDiv">
+	  <div>
+	    <p id="title">Coin Man</p>
+	  </div>
+
+	  <div id="canvasHeader">
+	    <div id="scoreboard">SCORE 0</div>
+	    <div id="level">1 LEVEL</div>
+	  </div>
+
+	  <div id="gameContainer">
+	  	<div id="canvasDiv" style="height: 100%">
+	  		<canvas id="myCanvas"></canvas>
+	  	</div>
+	  	
+
+	  	<div id="popupSection">
+	  		<div id="gameOver">
+		    <p>
+		      Game Over!
+		      <br />
+		      You collected a total of <a id="finalScore">0</a> coins!
+		    </p>
+		    <button id="startButton">Play Again</button>
+		    <br />
+		    <button id="shareButton">Share</button>
+		</div>
+
+	  	
+	  </div>
+	  </div>
+
+
+	  
+
+	</div>
+
+	
+
+	<script src="index.js"></script>
+</body>
+</html>
