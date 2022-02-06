@@ -112,8 +112,13 @@ function draw() {
     (posY >= canvas.height + ballRadius) ||
     (posY < 0 - ballRadius)
   ) {
-    document.getElementById("finalScore").innerHTML = score;
+    document.getElementById("finalScore").innerHTML = score == 1 ? (score + " coin") : (score + " coins");
     document.getElementById("popupSection").style.display = "block";
+
+    console.log(document.getElementById("startButton").getBoundingClientRect().width);
+
+    document.getElementById("shareButton").style.width = document.getElementById("startButton").getBoundingClientRect().width + "px";
+
     moveBall = false;
     isGameRunning = false;
 
@@ -189,7 +194,7 @@ document.getElementById("startButton").onclick = function () {
 if (navigator && navigator.share) {
   document.getElementById("shareButton").onclick = function () {
     navigator.share({
-      text: "I grabbed " + (score > 0 ? score : "some") + " coins on Coin Man! Grab yours too at : https://coinman.com"
+      text: "I grabbed " + (score > 1 ? score : "some") + " coins on Coin Man! Grab yours too at : https://coinman.com"
     })
   }
 } else {

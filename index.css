@@ -4,8 +4,8 @@ body {
     from 45deg,
     #636363 0,
     #636363 90deg,
-    #6e6e6e 90deg,
-    #6e6e6e 180deg,
+    #2c3154 90deg,
+    #2c3154 180deg,
     #333333 180deg,
     #333333 270deg,
     #4f4f4f 270deg,
@@ -13,7 +13,7 @@ body {
   );
   background-size: 1em 1em;
 
-  background: red;
+  /*background: red;*/
 }
 
 @font-face {
@@ -109,6 +109,7 @@ body {
   min-height: 45px;
 
   margin: 10px auto 10px auto;
+  padding: 10px 20px 10px 20px;
 
   background: #ededed;
 
@@ -127,7 +128,7 @@ body {
 }
 
 #scoreboard {
-  width: 150px;
+  width: 40%;
   color: #ededed;
 
   position: relative;
@@ -138,7 +139,7 @@ body {
 }
 
 #level {
-  width: 150px;
+  width: 40%;
   color: #ededed;
 
   position: relative;
