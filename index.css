@@ -12,6 +12,8 @@ body {
     #4f4f4f 360deg
   );
   background-size: 1em 1em;
+
+  background: red;
 }
 
 @font-face {
@@ -84,7 +86,7 @@ body {
 
   font-family: 'Righteous', cursive;
   /*font-size: 22px;*/
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #ededed;
   text-align: center;
 
@@ -103,7 +105,7 @@ body {
   position: relative;
   text-align: center;
 
-  width: 180px;
+  min-width: 180px;
   min-height: 45px;
 
   margin: 10px auto 10px auto;
@@ -111,7 +113,7 @@ body {
   background: #ededed;
 
   font-family: 'Righteous', cursive;
-  font-size: 22px;
+  font-size: 2.5rem;
   color: black;
 }
 

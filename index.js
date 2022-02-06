@@ -47,6 +47,7 @@ function getBallSpeed () {
 
   var speed = (refreshRate * (dimension/2)) / speedScaleFactor;
   speed = speed > 3 ? 3 : speed
+  speed = speed < 2 ? 2 : speed
   return speed;
 }
 
